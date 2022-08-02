@@ -1,4 +1,5 @@
 from email.mime import image
+from signal import SIG_DFL
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
@@ -13,6 +14,11 @@ images = driver.find_elements_by_css_selector(".rg_i.Q4LuWd")
 for image in images:
     image.click()
     
+
+
+    aaaddegsdf
+    dddd
+    SIG_DFLsdfegds
 
 
 # assert "Python" in driver.title
